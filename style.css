@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, p, a {
     box-sizing: border-box;
   }
   body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Comfortaa', cursive;
   }
   
   .header {
@@ -34,6 +34,15 @@ body, h1, h2, h3, h4, p, a {
     background-color: rgba(0, 0, 0, .5);
   }
   
+  .item{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+
+  }
+
+  
   .article {
     padding: 40px 50px;
     
@@ -51,10 +60,10 @@ body, h1, h2, h3, h4, p, a {
     width: 30%;
     background-color: #e3f3ff;
     margin-bottom: 60px;
-    margin-right: 3%;
+   /* margin-right: 3%;*/
     padding: 45px 45px 70px 45px;
     border: 2px solid rgba(250, 170, 50, 0.4);
-    display: inline-block;
+    /*display: inline-block;*/
   }
   
   .card-title {
